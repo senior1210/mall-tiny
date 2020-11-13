@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.macro.mall.tiny.modules.dms.mapper.DmsDriverMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.macro.mall.tiny.modules.dms.model.DmsDriver">
+        <id column="driver_id" property="driverId" />
+        <result column="driver_name" property="driverName" />
+        <result column="password" property="password" />
+        <result column="user_rank" property="userRank" />
+        <result column="city_id" property="cityId" />
+        <result column="channel" property="channel" />
+        <result column="platform" property="platform" />
+        <result column="pushCID" property="pushCID" />
+        <result column="pushToken" property="pushToken" />
+        <result column="city_name" property="cityName" />
+        <result column="wineshop_id" property="wineshopId" />
+        <result column="accept_model" property="acceptModel" />
+        <result column="invite_code" property="inviteCode" />
+        <result column="parent_id" property="parentId" />
+        <result column="remarks" property="remarks" />
+        <result column="email" property="email" />
+        <result column="question" property="question" />
+        <result column="answer" property="answer" />
+        <result column="name" property="name" />
+        <result column="sex" property="sex" />
+        <result column="birthday" property="birthday" />
+        <result column="driver_money" property="driverMoney" />
+        <result column="caution_money" property="cautionMoney" />
+        <result column="frozen_money" property="frozenMoney" />
+        <result column="pay_points" property="payPoints" />
+        <result column="rank_points" property="rankPoints" />
+        <result column="address_id" property="addressId" />
+        <result column="reg_time" property="regTime" />
+        <result column="reg_lat" property="regLat" />
+        <result column="reg_lng" property="regLng" />
+        <result column="last_login" property="lastLogin" />
+        <result column="last_lat" property="lastLat" />
+        <result column="last_lng" property="lastLng" />
+        <result column="last_time" property="lastTime" />
+        <result column="last_ip" property="lastIp" />
+        <result column="last_lock_msgid" property="lastLockMsgid" />
+        <result column="visit_count" property="visitCount" />
+        <result column="is_special" property="isSpecial" />
+        <result column="ec_salt" property="ecSalt" />
+        <result column="salt" property="salt" />
+        <result column="flag" property="flag" />
+        <result column="alias" property="alias" />
+        <result column="msn" property="msn" />
+        <result column="qq" property="qq" />
+        <result column="office_phone" property="officePhone" />
+        <result column="home_phone" property="homePhone" />
+        <result column="mobile_phone" property="mobilePhone" />
+        <result column="is_validated" property="isValidated" />
+        <result column="credit_line" property="creditLine" />
+        <result column="passwd_question" property="passwdQuestion" />
+        <result column="passwd_answer" property="passwdAnswer" />
+        <result column="realname" property="realname" />
+        <result column="verify_status" property="verifyStatus" />
+    </resultMap>
+
+</mapper>
